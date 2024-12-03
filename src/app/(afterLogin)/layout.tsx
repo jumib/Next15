@@ -1,3 +1,6 @@
+// 페이지 넘나들때 리랜더링 안하고 싶으면 Layout.tsx
+// 페이지 넘나들때 리랜더링(새로 마운트) 되게 하고싶으면 Template.tsx
+// Template: 예를들어 페이지 넘나들며 기록을 해야할 때 (GA 등)
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +15,7 @@ export default function AfterLoginLayout({
 }>) {
   return (
     <div>
-      AfterLoginLayout
+      {/* AfterLoginLayout */}
       {children}
     </div>
   );

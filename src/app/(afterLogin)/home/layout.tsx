@@ -12,7 +12,7 @@ export default function HomeLayout({
 }>) {
   return (
     <div>
-      HomeLayout
+      {/* HomeLayout */}
       {children}
     </div>
   );
