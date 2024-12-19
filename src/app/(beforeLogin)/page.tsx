@@ -13,7 +13,7 @@ export default function Home() {
         <p className="text-xl font-bold">지금 가입하세요.</p>
         <Link href="/i/flow/signup">계정 만들기</Link>
         <p className="text-xl font-bold">이미 가입하셨나요?</p>
-        <Link href="/login">로그인</Link>
+        <Link href="/i/flow/login">로그인</Link>
       </div>
     </div>
   );
