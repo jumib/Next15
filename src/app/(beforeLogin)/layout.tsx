@@ -7,8 +7,8 @@ export default function BeforeLoginLayout({
 }>) {
   return (
     <div>
-      {children}
       {modal}
+      {children}
     </div>
   );
 }
